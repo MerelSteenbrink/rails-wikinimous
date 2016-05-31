@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Article.create(name: Faker::Book.title , content: Faker::Hipster.paragraph)
+Article.create(name: Faker::Book.title , content: Faker::Hipster.paragraph)
+Article.create(name: Faker::Book.title , content: Faker::Hipster.paragraph)
+Article.create(name: Faker::Book.title , content: Faker::Hipster.paragraph)
+Article.create(name: Faker::Book.title , content: Faker::Hipster.paragraph)
+Article.create(name: Faker::Book.title , content: Faker::Hipster.paragraph)
+Article.create(name: Faker::Book.title , content: Faker::Hipster.paragraph)
+Article.create(name: Faker::Book.title , content: Faker::Hipster.paragraph)

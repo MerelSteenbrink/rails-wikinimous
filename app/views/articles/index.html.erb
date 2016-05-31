@@ -1,0 +1,17 @@
+<h1>WIKINONIMOUS</h1>
+<p>Articles ABOUT EVERYTHING, anonymous</p>
+
+
+<ul>
+    <% @articles.each do |article| %>
+    <li>
+      <%= link_to article.name, article_path(article) %>
+      <%= link_to "edit", edit_article_path(article)%>
+      <%= link_to "[Delete]", article_path(article),
+      method: :delete,
+      data: { confirm: "Are you sure?" } %>
+    </li>
+    <% end %>
+</ul>
+
+<%= link_to "Create", new_article_path()%>
